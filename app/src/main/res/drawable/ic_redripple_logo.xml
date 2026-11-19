@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+  <!-- Outer Ripple -->
+  <path
+      android:fillColor="@android:color/transparent"
+      android:strokeColor="#E53935"
+      android:strokeWidth="16"
+      android:strokeLineCap="round"
+      android:pathData="
+            M256,62
+            C363,62 450,149 450,256
+            C450,363 363,450 256,450
+            C149,450 62,363 62,256
+            C62,149 149,62 256,62
+            Z" />
+
+  <!-- Inner Ripple -->
+  <path
+      android:fillColor="@android:color/transparent"
+      android:strokeColor="#EF5350"
+      android:strokeWidth="10"
+      android:strokeLineCap="round"
+      android:pathData="
+            M256,105
+            C339,105 407,173 407,256
+            C407,339 339,407 256,407
+            C173,407 105,339 105,256
+            C105,173 173,105 256,105
+            Z" />
+
+  <!-- Blood Drop -->
+  <path
+      android:fillColor="#C62828"
+      android:pathData="
+            M256,128
+            C256,128 171,231 171,294
+            C171,347 209,385 256,385
+            C303,385 341,347 341,294
+            C341,231 256,128 256,128
+            Z" />
+
+  <!-- Highlight on Blood Drop -->
+  <path
+      android:fillColor="#EF5350"
+      android:pathData="
+            M223,231
+            C208,252 198,273 198,291
+            C198,312 210,329 227,336
+            C216,318 214,297 220,277
+            C225,260 234,244 244,229
+            C236,228 229,229 223,231
+            Z" />
+
+  <!-- Donation/Ripple Wave -->
+  <path
+      android:fillColor="@android:color/transparent"
+      android:strokeColor="#FFFFFF"
+      android:strokeWidth="12"
+      android:strokeLineCap="round"
+      android:strokeLineJoin="round"
+      android:pathData="
+            M211,294
+            C226,309 241,316 256,316
+            C271,316 286,309 301,294" />
+
+</vector>

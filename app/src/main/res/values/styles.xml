@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.RedRipple.Headline" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/redripple_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.RedRipple.Subtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/redripple_subtitle</item>
+    </style>
+
+    <style name="TextAppearance.RedRipple.Brand" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/redripple_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.RedRipple.Tagline" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/redripple_subtitle</item>
+    </style>
+
+    <style name="TextAppearance.RedRipple.Link" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/redripple_link</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.RedRipple.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="Widget.RedRipple.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+
+    <style name="Widget.RedRipple.TextInputLayout.Dropdown" parent="Widget.RedRipple.TextInputLayout">
+        <item name="endIconMode">dropdown_menu</item>
+    </style>
+
+    <style name="Widget.RedRipple.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/redripple_primary</item>
+        <item name="android:textColor">@color/redripple_on_primary</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="Widget.RedRipple.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/redripple_outline</item>
+        <item name="android:textColor">@color/redripple_on_surface</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+</resources>

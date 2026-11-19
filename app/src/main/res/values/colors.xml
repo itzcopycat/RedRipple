@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="redripple_background">#F8F9FA</color>
+    <color name="redripple_ripple">#1F000000</color>
+    <color name="redripple_outline">#CCCCCC</color>
+    <color name="redripple_on_primary">#FFFFFF</color>
+    <color name="redripple_divider">#E0E0E0</color>
+    <color name="redripple_primary">#D32F2F</color>
+    <color name="redripple_on_surface">#212121</color>
+    <color name="redripple_subtitle">#757575</color>
+    <color name="redripple_link">#D32F2F</color>
+    <color name="redripple_text_primary">#212121</color>
+    <color name="redripple_surface">#FFFFFF</color>
+</resources>
